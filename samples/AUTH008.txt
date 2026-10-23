@@ -1,0 +1,15 @@
+Subject: Farhan, your royalty summary is all paid and ready!
+Model: groq/openai/gpt-oss-120b
+
+Hi Farhan,
+
+- "Ghazal of the Forgotten": 156 copies sold, ₹3,120 earned, ₹3,120 paid, ₹0 pending.
+
+Overall, you have earned ₹3,120, have been paid ₹3,120, and have ₹0 pending.
+
+All the royalties you earned have already been transferred to your bank account, and the quarter that ended on 30 September 2026 is fully settled. We’re delighted to share that every rupee you earned has been paid – thank you for being a wonderful partner with BookLeaf.
+
+If you have any questions or just want to chat about your next project, feel free to reach out. We’re always here to support you.
+
+Warm regards,
+The BookLeaf Royalties Team

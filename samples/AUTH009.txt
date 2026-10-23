@@ -1,0 +1,15 @@
+Subject: Kavita, your royalty summary and update
+Model: groq/openai/gpt-oss-120b
+
+Hi Kavita,
+
+- "The Nagpur Notebooks": 34 copies sold, ₹850 earned, ₹0 paid, ₹850 pending.
+
+Across all your titles you have earned ₹850, paid ₹0 and have ₹850 pending.
+
+Your pending balance of ₹850 is below our ₹1,000 minimum payout threshold, so it will roll over to the next quarter and be paid in the first payout after the balance exceeds ₹1,000. This is normal and not a delay.
+
+Your upcoming book "Raising Roots" is currently in the Typesetting stage. Next up is Proofreading, after which we will move on to the remaining production steps.
+
+Warm regards,
+The BookLeaf Royalties Team

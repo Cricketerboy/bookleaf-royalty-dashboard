@@ -1,0 +1,10 @@
+Subject: Diya, your royalty summary and upcoming payout
+Model: groq/openai/gpt-oss-120b
+
+Hi Diya,
+- "Durga’s Daughters": 612 copies sold, ₹27,540 earned, ₹25,000 paid, ₹2,540 pending.
+- "Howrah Nights": 45 copies sold, ₹1,575 earned, ₹0 paid, ₹1,575 pending.
+In total you have earned ₹29,115, received ₹25,000 and have ₹4,115 pending.
+We acknowledge that this payment is later than it should be, and we’re sorry. The royalty team has flagged the overdue balance for priority review and you will hear back with a confirmed payout date within 48 hours. The next scheduled payout is on 14 November 2026, covering the quarter that ended 30 September 2026.
+Warm regards,
+The BookLeaf Royalties Team

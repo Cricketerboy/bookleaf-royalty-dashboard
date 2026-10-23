@@ -1,0 +1,11 @@
+Subject: Rohit, your royalty summary and upcoming payout
+Model: groq/openai/gpt-oss-120b
+
+Hi Rohit,
+- "Code & Karma": 876 copies sold, ₹26,280 earned, ₹21,000 paid, ₹5,280 pending.
+- "Startup Sutra": 1,203 copies sold, ₹57,744 earned, ₹50,000 paid, ₹7,744 pending.
+In total you have earned ₹84,024, received ₹71,000 and have ₹13,024 pending.
+We want to be upfront: this payment is later than it should be, and we're sorry. Our royalty team has flagged the overdue balance for priority review and you will hear back with a confirmed payout date within 48 hours. The next scheduled payout is on 14 November 2026, covering the quarter that ended 30 September 2026.
+Thank you for your patience and for being a valued partner.
+Warm regards,
+The BookLeaf Royalties Team

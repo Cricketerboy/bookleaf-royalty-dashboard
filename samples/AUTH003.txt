@@ -1,0 +1,13 @@
+Subject: Ananya, your royalty summary and upcoming payout
+Model: groq/openai/gpt-oss-120b
+
+Hi Ananya,
+
+- "Between Two Temples": 67 copies sold, ₹2,546 earned, ₹0 paid, ₹2,546 pending.
+
+Overall, you have earned ₹2,546, none of which has been paid yet, leaving ₹2,546 pending.
+
+We acknowledge that this payment is later than it should be, and we’re sorry for the delay. Our royalty team has flagged it for priority review and you will hear back with a confirmed payout date within 48 hours. The next scheduled payout date is 14 November 2026, covering the quarter that ended 30 September 2026.
+
+Warm regards,
+The BookLeaf Royalties Team

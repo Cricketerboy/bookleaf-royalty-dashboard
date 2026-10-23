@@ -1,0 +1,10 @@
+Subject: Vikram, your royalty summary and upcoming payout
+Model: groq/openai/gpt-oss-120b
+
+Hi Vikram,
+- "Debugging Life": 534 copies sold, ₹13,350 earned, ₹10,000 paid, ₹3,350 pending.
+- "The Last Monsoon": 123 copies sold, ₹1,845 earned, ₹1,845 paid, ₹0 pending.
+You have earned a total of ₹15,195, of which ₹11,845 has been paid and ₹3,350 is still pending.
+We acknowledge that this payment is later than it should be, and we’re sorry for the delay. Our royalty team has flagged the overdue balance for priority review and you will hear back with a confirmed payout date within 48 hours. The next scheduled payout date is 14 November 2026, covering the quarter that ended 30 September 2026.
+Warm regards,
+The BookLeaf Royalties Team

@@ -1,0 +1,11 @@
+Subject: Sneha, your royalty summary and update
+Model: groq/openai/gpt-oss-120b
+
+Hi Sneha,
+- "The Algorithm of Love": 1,567 copies sold, ₹39,175 earned, ₹35,000 paid, ₹4,175 pending.
+- "Ctrl+Alt+Delete My Ex": 723 copies sold, ₹21,690 earned, ₹18,000 paid, ₹3,690 pending.
+You have earned a total of ₹60,865, of which ₹53,000 has been paid and ₹7,865 is pending.
+We acknowledge that this payment is later than it should be, and we’re sorry. Our royalty team has flagged the overdue balance for priority review and you will hear back with a confirmed payout date within 48 hours. The next scheduled payout is on 14 November 2026, covering the quarter that ended 30 September 2026.
+Your upcoming title "Midnight in Mysore" is currently in the Cover Design stage; the next step will be Typesetting.
+Warm regards,
+The BookLeaf Royalties Team

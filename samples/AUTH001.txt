@@ -1,0 +1,17 @@
+Subject: Priya, your BookLeaf royalty summary and update
+Model: gemini-3.5-flash-lite
+
+Dear Priya,
+
+Here is the latest royalty summary for your published books:
+- "Whispers of the Ganges": 342 copies sold, ₹11,970 earned, ₹8,400 paid, ₹3,570 pending.
+- "The Saffron Diaries": 189 copies sold, ₹7,938 earned, ₹7,938 paid, ₹0 pending.
+
+Across both of your books, your total earned is ₹19,908, total paid is ₹16,338, and total pending is ₹3,570.
+
+We need to let you know that this payment is later than it should be, and we are sorry. We know how important timely payments are to you. Our royalty team has flagged your account for priority review, and you will hear back with a confirmed payout date within 48 hours. Please also note that our next scheduled payout date is 14 November 2026, which covers the quarter that ended 30 September 2026.
+
+You can always check the detailed per-platform royalty breakdown by logging into your author dashboard. Thank you for partnering with us on your publishing journey.
+
+Warm regards,
+The BookLeaf Royalties Team

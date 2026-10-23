@@ -1,0 +1,13 @@
+Subject: Arjun, your royalty summary and upcoming payout
+Model: groq/openai/gpt-oss-120b
+
+Hi Arjun,
+
+- "Turban Tales": 88 copies sold, ₹2,464 earned, ₹0 paid, ₹2,464 pending.
+
+Overall, you have earned ₹2,464, paid ₹0, and ₹2,464 is still pending.
+
+We want to be upfront: this payment is later than it should be, and we're sorry. Our royalty team has flagged it for priority review and you will hear back with a confirmed payout date within 48 hours. The next scheduled payout date is 14 November 2026, covering the quarter that ended 30 September 2026.
+
+Warm regards,
+The BookLeaf Royalties Team

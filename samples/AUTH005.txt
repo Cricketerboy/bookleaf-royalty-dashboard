@@ -1,0 +1,10 @@
+Subject: Meera, your royalty summary and payout update
+Model: groq/openai/gpt-oss-120b
+
+Hi Meera,
+- "Cardamom & Chaos": 445 copies sold, ₹14,240 earned, ₹14,240 paid, ₹0 pending.
+- "Letters from Lakshadweep": 201 copies sold, ₹11,055 earned, ₹8,000 paid, ₹3,055 pending.
+Across both titles you have earned ₹25,295, of which ₹22,240 has been paid and ₹3,055 is still pending.
+We acknowledge that this payment is later than it should be, and we’re sorry for the delay. Our royalty team has flagged the overdue balance for priority review and you will hear back with a confirmed payout date within 48 hours. The next scheduled payout is on 14 November 2026, covering the quarter that ended 30 September 2026.
+Warm regards,
+The BookLeaf Royalties Team

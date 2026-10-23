@@ -186,7 +186,33 @@ GEMINI_API_KEY=… node tools/test_nodes.mjs --live AUTH003 AUTH009   # live ema
 - **No real email to authors.** The SMTP node is wired up but disabled, and it points only at a test inbox, because the sample addresses aren't real inboxes.
 
 ## 12. Learning Bubble & n8n
-_(to be written by Mohit: what was new, what tripped me up, how I got unstuck, and how long each part took)_
+
+Bubble was new to me, and this was my first n8n Cloud workflow. I started from the Bubble manual and treated the app like a relational schema: data types first, then privacy rules, then one thin slice end to end (login → author dashboard) before building the admin side.
+
+**What tripped me up, and how I got past it**
+
+| Problem | What I learned / did |
+|---|---|
+| The Free plan has no CSV upload and no Data API (the API returned 401 "Please upgrade") | I entered the 10 authors and 18 books by hand from generated CSVs. It also settled the integration design: Bubble sends the data in the webhook payload, so n8n never needs the Data API. |
+| My first dynamic texts showed the literal words "[Author's name]" | In Bubble's expression editor you pick a data source, not type it. A static value has to be chosen as the quoted suggestion. |
+| The first workflow ran on page load instead of on the button | Workflows belong to an event; I deleted it and re-added it on "Button Send is clicked". |
+| Bubble searches can't do date arithmetic, but "overdue" means "last payout + 90 days < today" | I precomputed `overdue_after` on each book, so the badge and the admin filter become a simple constraint. |
+| "Fully paid" isn't a field on Author | I used list operators: all authors *minus* the authors of books with pending > 0. |
+| n8n rejected some calls with 422 "Bad control character in string literal" | A few names and emails in my data had stray tab characters. `:formatted as JSON-safe` on every text in the payload fixed it. The original Failed row is still in the log, which also proved that errors surface in the UI. |
+| Gemini's free tier went from ~8 s answers to 429s and 30 s+ in one afternoon | I made Groq the primary model with two Gemini fallbacks. When the bulk run then hit Groq's 8k tokens/minute limit, I added retries in n8n and a 15-second pace between authors. |
+| Bulk sending: on Free there are no backend workflows, and a custom event can't schedule itself | I moved the queue into the database (`Author.bulk_queued`) with a "Do every 15 seconds" page event that takes one author per tick. |
+| One test login didn't work | I had mistyped the password when creating it, and Bubble never shows passwords. I deleted the user and created it again. |
+| Making the editor "Everyone can view" exposed the API Connector's shared header, including the webhook secret | I switched it back to Private. Reviewers get editor access as collaborators instead. |
+
+**What I'd do differently:** set up the dataset import and option sets before any UI, and test the payload with real (messy) data on day one. The tab-character bug would have shown up immediately.
+
+**Time spent (approx.)**
+- **Day 1 (20 Oct):** data prep, n8n workflow, prompt, offline tests
+- **Day 2 (21 Oct):** Bubble data types, data entry, users, privacy rules, author dashboard
+- **Day 3 (22 Oct):** admin page, filters, API Connector, first end-to-end success
+- **Day 4 (23 Oct):** bulk queue, author detail page, hardening, docs, recording
+
+**AI tools:** I used an AI coding assistant (Claude Code) to plan the build, write and test the n8n Code nodes, and drive repetitive clicks in the Bubble editor. I can walk through every Bubble workflow and n8n node in detail.
 
 ## Repository layout
 ```

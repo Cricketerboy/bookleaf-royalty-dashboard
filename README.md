@@ -75,6 +75,8 @@ Bubble enforces these rules on the server. A search a logged-in author runs, eve
 
 Admins see the same breakdown for any author: **View** on the authors list opens `author_detail`, which reuses the author dashboard's `BookRoyaltyList` component and is guarded to admins only.
 
+The brief's **"Generate & Send Royalty Summary"** action is the **Send summary** button on each author's row in the admin list, placed there so an admin can send without opening each author first. It triggers the same `send_summary` workflow and n8n webhook as the bulk button. The detail page stays read-only.
+
 ## 5. Integration: Bubble ↔ n8n
 
 **Data: sent in the webhook payload, not fetched through Bubble's Data API.** I chose this because:

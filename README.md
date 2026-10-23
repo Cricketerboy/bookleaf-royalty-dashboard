@@ -9,7 +9,7 @@ Assignment 2 · Bubble.io + n8n + Groq/Gemini · Mohit Anand
 | Admin login | `admin@bookleaf.com` |
 | Passwords | sent with the submission email. This repo is public, so they are not published here. |
 | n8n workflow | `n8n/bookleaf-royalty-summary.workflow.json` · live webhook on n8n Cloud (`bookleaf-mohit.app.n8n.cloud`) |
-| Screen recording | `LINK` |
+| Screen recording | [`docs/walkthrough.mp4`](docs/walkthrough.mp4) · 4 min 52 s, silent with on-screen captions: author portal, privacy, admin filters, author detail, Send summary → n8n execution → log, duplicate Skipped, bulk run, a logged failure |
 
 Everything runs on free tiers: Bubble Free, n8n Cloud trial, Gemini API and Groq free tiers.
 
